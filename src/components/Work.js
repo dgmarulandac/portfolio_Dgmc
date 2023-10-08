@@ -24,15 +24,15 @@ const Work = () => {
               Work.
             </h2>
             <p className='max-w-sm mb-16'>
-              loquesdjvnsdkjvnfksdjnlvsjnvlbjsdnvkljsdnvkjlsdvn
-              vdlksdnvlsdnvlsjdnvljsdvns
-              dsvjnsdlkjvnsdlvnjsd
+            I've developed three projects, of which 2 are full stack development, one of them uses an API and the other has a payment gateway configured, Auth with Google, libraries for sending emails
             </p>
+            
             <button className='btn btn-sm'>
-              View all projects
+              <a href='https://github.com/dgmarulandac'>View all projects</a>
             </button>
           </motion.div>
           {/* imagen */}
+          <a href='https://pf-ptb-grupo-06.vercel.app/'>
           <motion.div
           variants={fadeIn('right', 0.8)}
           initial="hidden"
@@ -42,15 +42,16 @@ const Work = () => {
             <div className='group-hover:bg-sky-300/70 w-full h-full absolute z-40 transition-all duration-300'>
 
             </div>
-            <img className="group-hover:scale-125 transition-all duration-500"src={img1} alt="img1"/>
+            <img  className="group-hover:scale-125 transition-all duration-500"src={img1} alt="img1"/>
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 font-bold text-xl'>
-              <span>UI/UX design</span>
+              <span>Marketplace</span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 font-bold text-3xl'>
-              <span>project Title</span>
+              <span>BOHO Buy and sell tikets</span>
             </div>
            
           </motion.div>
+          </a>
         </div>
         <motion.div 
         variants={fadeIn('left', 0.5)}
@@ -59,32 +60,37 @@ const Work = () => {
         viewport={{once: false, amount: 0.3}}
         className='flex-1 flex flex-col gap-y-10 lg:gap-y-20'>
            {/* imagen */}
+           <a href='https://pi-countries-main-nu.vercel.app/home'>
            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl shadow-xl shadow-cyan-500/50'>
             <div className='group-hover:bg-sky-300/70 w-full h-full absolute z-40 transition-all duration-300'>
 
             </div>
             <img className="group-hover:scale-125 transition-all duration-500"src={img2} alt="img1"/>
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 font-bold text-xl'>
-              <span>UI/UX design</span>
+              <span>API'S Aplication</span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 font-bold text-3xl'>
-              <span>project Title</span>
+              <span>COUNTRIES APP</span>
             </div>
           </div>
+           </a>
 
            {/* imagen */}
-           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl shadow-xl shadow-cyan-500/50'>
+            <a href='https://portfolio-dgmc.vercel.app/'>
+            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl shadow-xl shadow-cyan-500/50'>
             <div className='group-hover:bg-sky-300/70 w-full h-full absolute z-40 transition-all duration-300'>
 
             </div>
-            <img className="group-hover:scale-125 transition-all duration-500"src={img3} alt="img1"/>
+            <img  className="group-hover:scale-125 transition-all duration-500"src={img3} alt="img1"/>
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 font-bold text-xl'>
-              <span>UI/UX design</span>
+              <span>PORTFOLO TAILWIND DESIGN</span>
             </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 font-bold text-3xl'>
-              <span>project Title</span>
+              <span>PORTFOLIO DANIEL MARULANDA CRUZ</span>
             </div>
           </div>
+            
+            </a>
         
         </motion.div>
       </div>
