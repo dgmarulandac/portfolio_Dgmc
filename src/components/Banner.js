@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../assets/imgavatar.png'
 import{FaGithub, FaYoutube, FaDribbble, FaLinkedin} from 'react-icons/fa'
 import {TypeAnimation } from 'react-type-animation';
+import {AiOutlineIdcard} from 'react-icons/ai';
 import{motion} from 'framer-motion';
 import {fadeIn } from '../variants'
 
@@ -52,6 +53,9 @@ const Banner = () => {
                 </a>
                 <a href='https://www.youtube.com/@elmarulo1'>
                   <FaYoutube/>
+                </a>
+                <a href='https://drive.google.com/file/d/1VmdK0FSWAP_aOyWsOIiXZwGbHIZrpuOQ/view?usp=sharing'>
+                  <AiOutlineIdcard/>
                 </a>
               </motion.div>
           </div>
