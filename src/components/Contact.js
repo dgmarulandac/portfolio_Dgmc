@@ -30,22 +30,24 @@ const Contact = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{once: false, amount: 0.3}}
-          className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start bg-cyan-700 mb-[700px] lg:mb-4 '>
+          className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start bg-cyan-700 mb-[700px] lg:mb-4 '
+          action="https://formsubmit.co/danielmarulanda9@gmail.com" 
+          method="POST">
           <input className="bg-transparent border-b py-3 outline-none w-full
-           placeholder:text-white focus:border-accent transition-all mb-10" type="text" 
-          placeholder='Your name'/>
+           placeholder:text-white focus:border-accent transition-all mb-10" type="text" name='name' 
+          placeholder='Your name' required/>
 
           <input  className="bg-transparent border-b py-3 outline-none w-full
-           placeholder:text-white focus:border-accent transition-all mb-10" type="text" 
-          placeholder='Your email'/>
+           placeholder:text-white focus:border-accent transition-all mb-10" type="email" name='email'
+          placeholder='Your email' required/>
 
           <textarea className='bg-transparent border-b py-3 outline-none w-full
            placeholder:text-white focus:border-accent transition-all resize-none mb-12' 
-           placeholder='Your message'>
+           placeholder='Your message' name="comments">
 
            </textarea>
 
-           <button className='btn btn-lg  lg:mb-5 '>Send message</button>
+           <button type="submit" className='btn btn-lg  lg:mb-5 '>Send message</button>
 
         </motion.form>
       </div>
