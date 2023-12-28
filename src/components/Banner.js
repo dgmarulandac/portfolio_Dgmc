@@ -54,7 +54,7 @@ const Banner = () => {
                 <a href='https://www.youtube.com/@elmarulo1'>
                   <FaYoutube/>
                 </a>
-                <a href='https://drive.google.com/file/d/1VmdK0FSWAP_aOyWsOIiXZwGbHIZrpuOQ/view?usp=sharing'>
+                <a href='https://drive.google.com/file/d/1a8l5wWhniWYWR91wz7hDn1WFEe3A_-el/view?usp=sharing'>
                   <AiOutlineIdcard/>
                 </a>
               </motion.div>
