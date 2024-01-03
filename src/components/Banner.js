@@ -8,7 +8,7 @@ import {fadeIn } from '../variants'
 import { Link } from 'react-scroll';
 
 const Banner = () => {
-  return <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center ' id='home'>
+  return <section className='min-h-[70vh] mb-40 lg:min-h-[78vh] flex items-center ' id='home'>
     <div className='container mx-auto'>
       <div className='flex flex-col gap-y-1 lg:flex-row lg:items-center lg:gap-x-12'>
         <div className='flex-1 text-center font-secondary lg:text-left'>
