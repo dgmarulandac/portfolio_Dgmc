@@ -5,6 +5,7 @@ import {TypeAnimation } from 'react-type-animation';
 import {AiOutlineIdcard} from 'react-icons/ai';
 import{motion} from 'framer-motion';
 import {fadeIn } from '../variants'
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center ' id='home'>
@@ -34,7 +35,7 @@ const Banner = () => {
             I am a full stack developer from Henry bootcamp, I am currently also studying systems engineering at the Unad University in Colombia, I have very good foundations in programming which allows me to carry out any type of project that I have the opportunity to develop.            </motion.p>
 
             <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}}className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contact me</button>
+              <Link to='contact'><button className='btn btn-lg'>Contact me</button></Link>
               <a href='#' className='text-gradient btn-link'>My Portfolio</a>
             </motion.div>
 
