@@ -7,7 +7,7 @@ import { fadeIn } from '../variants';
 const Contact = () => {
   return (
 
-  <section className='py-16 lg:section' id='contact'>
+  <section className='py-8 lg:section' id='contact'>
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row'>
         {/* text */}
@@ -30,7 +30,7 @@ const Contact = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{once: false, amount: 0.3}}
-          className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start bg-cyan-700 mb-[700px] lg:mb-4 '
+          className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start bg-cyan-700 mb-[100px] lg:mb-4 '
           action="https://formsubmit.co/danielmarulanda9@gmail.com" 
           method="POST">
           <input className="bg-transparent border-b py-3 outline-none w-full
